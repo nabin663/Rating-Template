@@ -1,0 +1,75 @@
+body {
+    background-color:#141519;
+}
+.flexkolagi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+
+}
+.containerkolagi {
+    width: 25%;
+   
+    background-color:#1f2630;
+    border-radius: 10px;
+    padding:25px;
+    position: relative
+
+
+
+}
+.foricon {
+    padding: 10px;
+    background-color:#1f2628;
+    display: inline-block;
+    border-radius: 50%;
+   
+
+}
+*{
+    box-sizing: border-box;
+    font-family:Arial, sans-serif;
+}
+.fortext {
+    color:white
+}
+h3,p {
+    margin: none;
+}
+.forpagination {
+    display: flex;
+    justify-content: flex-start;
+  
+
+   
+
+}
+div.forpagination div {
+    box-sizing: border-box;
+    padding: 5%;
+    
+   width: 20%;
+    background-color: #262f38;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+button {
+    display:block;
+    width: 100%;
+    padding: 4%;
+    margin-top: 4%;
+    border-radius:10px;
+    border: none;
+}
+div.forpagination div:hover {
+    background-color:#fc7712
+}
+button:hover {
+    color:#fc7712;
+
+}
